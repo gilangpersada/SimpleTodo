@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2570732A344F8D8E43441ACE /* Pods_SimpleTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02DC3FBA47B8E3A4CC92906 /* Pods_SimpleTodo.framework */; };
 		3EA17DB2274CB7BB00C7684E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DB1274CB7BB00C7684E /* AppDelegate.swift */; };
 		3EA17DB4274CB7BB00C7684E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DB3274CB7BB00C7684E /* SceneDelegate.swift */; };
-		3EA17DB6274CB7BB00C7684E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DB5274CB7BB00C7684E /* ViewController.swift */; };
 		3EA17DB9274CB7BB00C7684E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA17DB7274CB7BB00C7684E /* Main.storyboard */; };
 		3EA17DBB274CB7C100C7684E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA17DBA274CB7C100C7684E /* Assets.xcassets */; };
 		3EA17DBE274CB7C100C7684E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA17DBC274CB7C100C7684E /* LaunchScreen.storyboard */; };
+		3EA17DD1274CBB4F00C7684E /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DD0274CBB4F00C7684E /* TodoViewController.swift */; };
+		3EA17DD5274CBBE800C7684E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DD4274CBBE800C7684E /* CategoryViewController.swift */; };
+		3EA17DD8274CC0B300C7684E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DD7274CC0B300C7684E /* Category.swift */; };
+		3EA17DDB274CC11E00C7684E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA17DDA274CC11E00C7684E /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30FF029BB9984AD16C3A756E /* Pods-SimpleTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTodo.release.xcconfig"; path = "Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo.release.xcconfig"; sourceTree = "<group>"; };
 		3EA17DAE274CB7BB00C7684E /* SimpleTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EA17DB1274CB7BB00C7684E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EA17DB3274CB7BB00C7684E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3EA17DB5274CB7BB00C7684E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3EA17DB8274CB7BB00C7684E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EA17DBA274CB7C100C7684E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EA17DBD274CB7C100C7684E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EA17DBF274CB7C100C7684E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA17DD0274CBB4F00C7684E /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		3EA17DD4274CBBE800C7684E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		3EA17DD7274CC0B300C7684E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		3EA17DDA274CC11E00C7684E /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		C0807FA99F80D08BCF10191D /* Pods-SimpleTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTodo.debug.xcconfig"; path = "Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		F02DC3FBA47B8E3A4CC92906 /* Pods_SimpleTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2570732A344F8D8E43441ACE /* Pods_SimpleTodo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13BFDC3FD47B9776A83DBF59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0807FA99F80D08BCF10191D /* Pods-SimpleTodo.debug.xcconfig */,
+				30FF029BB9984AD16C3A756E /* Pods-SimpleTodo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3EA17DA5274CB7BB00C7684E = {
 			isa = PBXGroup;
 			children = (
 				3EA17DB0274CB7BB00C7684E /* SimpleTodo */,
 				3EA17DAF274CB7BB00C7684E /* Products */,
+				13BFDC3FD47B9776A83DBF59 /* Pods */,
+				D8BED19C0740BD224F04C749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,50 @@
 		3EA17DB0274CB7BB00C7684E /* SimpleTodo */ = {
 			isa = PBXGroup;
 			children = (
+				3EA17DCD274CBAE600C7684E /* Model */,
 				3EA17DB1274CB7BB00C7684E /* AppDelegate.swift */,
 				3EA17DB3274CB7BB00C7684E /* SceneDelegate.swift */,
-				3EA17DB5274CB7BB00C7684E /* ViewController.swift */,
-				3EA17DB7274CB7BB00C7684E /* Main.storyboard */,
+				3EA17DCB274CBAD800C7684E /* Controller */,
+				3EA17DC6274CBACE00C7684E /* View */,
 				3EA17DBA274CB7C100C7684E /* Assets.xcassets */,
 				3EA17DBC274CB7C100C7684E /* LaunchScreen.storyboard */,
 				3EA17DBF274CB7C100C7684E /* Info.plist */,
 			);
 			path = SimpleTodo;
+			sourceTree = "<group>";
+		};
+		3EA17DC6274CBACE00C7684E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3EA17DB7274CB7BB00C7684E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3EA17DCB274CBAD800C7684E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3EA17DD0274CBB4F00C7684E /* TodoViewController.swift */,
+				3EA17DD4274CBBE800C7684E /* CategoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3EA17DCD274CBAE600C7684E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3EA17DD7274CC0B300C7684E /* Category.swift */,
+				3EA17DDA274CC11E00C7684E /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8BED19C0740BD224F04C749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F02DC3FBA47B8E3A4CC92906 /* Pods_SimpleTodo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EA17DC2274CB7C100C7684E /* Build configuration list for PBXNativeTarget "SimpleTodo" */;
 			buildPhases = (
+				5A384819D15E45A1B411CDA6 /* [CP] Check Pods Manifest.lock */,
 				3EA17DAA274CB7BB00C7684E /* Sources */,
 				3EA17DAB274CB7BB00C7684E /* Frameworks */,
 				3EA17DAC274CB7BB00C7684E /* Resources */,
+				02D12B2563122867B75FFC4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +191,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02D12B2563122867B75FFC4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleTodo/Pods-SimpleTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A384819D15E45A1B411CDA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3EA17DAA274CB7BB00C7684E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EA17DB6274CB7BB00C7684E /* ViewController.swift in Sources */,
+				3EA17DD5274CBBE800C7684E /* CategoryViewController.swift in Sources */,
+				3EA17DDB274CC11E00C7684E /* Todo.swift in Sources */,
+				3EA17DD8274CC0B300C7684E /* Category.swift in Sources */,
+				3EA17DD1274CBB4F00C7684E /* TodoViewController.swift in Sources */,
 				3EA17DB2274CB7BB00C7684E /* AppDelegate.swift in Sources */,
 				3EA17DB4274CB7BB00C7684E /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +387,7 @@
 		};
 		3EA17DC3274CB7C100C7684E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0807FA99F80D08BCF10191D /* Pods-SimpleTodo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +407,7 @@
 		};
 		3EA17DC4274CB7C100C7684E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FF029BB9984AD16C3A756E /* Pods-SimpleTodo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
